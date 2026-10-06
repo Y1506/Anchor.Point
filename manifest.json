@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "anchor.point",
+  "name": "Anchor Point",
+  "version": "1.0.0",
+  "author": "y1506",
+  "description": "Unbinds bar-widgets from the bar. Provides an independent, invisible Wayland anchor and IPC channel to open any bar dropdown menu as a standalone floating panel via keybinds.",
+  "kinds": ["service"],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}
